@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfe6e9"
+    tools:context=".WonActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="250sp"
+                android:layout_height="250sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="120sp">
+
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/circularProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cpb_background_progressbar_color="@color/red"
+                    app:cpb_background_progressbar_width="20sp"
+                    app:cpb_progress_direction="to_right"
+                    app:cpb_progress_max="4"
+                    app:cpb_progressbar_color="@color/green"
+                    app:cpb_progressbar_width="20dp"
+                    app:cpb_round_border="false" />
+
+                <TextView
+                    android:id="@+id/resulttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="3/5"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_below="@id/relative2"
+                android:layout_marginTop="70sp"
+                android:layout_marginBottom="50dp">
+
+                <LinearLayout
+                    android:id="@+id/buttonShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="40sp"
+                    android:layout_marginEnd="40sp"
+                    android:background="@drawable/share_shape"
+                    android:gravity="center"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Share your score"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

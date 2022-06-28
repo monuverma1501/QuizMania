@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesPage">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="15dp">
+
+        <ScrollView
+            android:id="@+id/scroll_view_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/introDPLayout"
+
+            android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="350sp"
+                android:layout_marginStart="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="
+                Ancient Indian History Notes
+The Ancient history of India is an crucial topic for the CSE exam. It is also an interesting topic while being a vast topic as well.
+The notes and topics in this article will help in candidate in cruising through the Ancient History of India segment with relative ease.
+
+Read more History of India NCERT Notes for UPSC. These notes are prepared on the important history topics of the UPSC Syllabus.
+It will help in the quick revision of prelims and GS 1 of UPSC Mains topics.
+The most important sources of History are NCERT Books. Aspirants should read History from NCERT Books for UPSC to prepare for the IAS Exam.
+Taking notes is an efficient way to organise your study material for revision.
+Though taking notes is advisable, UPSC Candidates often find it difficult to find the right topics to focus on or may not have the time or resources at hand to take efficient notes.
+With this in mind, we at BYJU’S have developed a compilation of NCERT Notes for UPSC.
+This page compiles most of the important NCERT Notes for Ancient Indian History for UPSC for ease of use by IAS aspirants.
+
+
+These IAS History study materials cover most of the major History Topics from the Ancient Indian Historical era until the dawn of the middle ages. Candidates should use these notes in conjunction with the NCERT Books to cover the complete UPSC Syllabus for Ancient Indian History.
+
+Studying the Ancient History of India requires a thorough understanding of the chronology of events in Indian History.
+Based on this foundation, aspirants should build up knowledge on various aspects of history such as economic history, administrative history and cultural impact of historical events apart from political history."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

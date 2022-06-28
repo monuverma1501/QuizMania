@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/drawable/next_btn_shape.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/drawable/share_shape.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout-land/activity_question_page.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout-land/no.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_create_new_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_forgotpass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_notes_page.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_performance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_question_page.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_question_set.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_reg.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_spllash2.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_user_profile.xml" value="0.176" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_verify_otp1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ProjectQuiz/app/src/main/res/layout/activity_won.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
